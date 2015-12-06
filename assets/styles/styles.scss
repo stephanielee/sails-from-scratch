@@ -1,0 +1,9 @@
+$brand-colour: #45bfd3;
+
+body {
+	background: $brand-colour;
+}
+
+.container {
+	@include outer-container(100%);
+}
